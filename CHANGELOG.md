@@ -1,7 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# idea-carbon-now-sh Changelog
+# CarbonNowSh Changelog
 
 ## [Unreleased]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Option to change the default Carbon base URL.
+- Option to toggle code indentation trimming and notifications.
+- Initial support for opening files and highlighted code in [carbon.now.sh](https://carbon.now.sh/).
