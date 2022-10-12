@@ -12,7 +12,7 @@
         <applicationConfigurable
                 instance="dev.ruipereira.idea.carbonnowsh.settings.CarbonSettingsConfigurable"
                 id="org.intellij.sdk.settings.AppSettingsConfigurable"
-                displayName="CarbonNowSh" parentId="tools"
+                key="name" bundle="messages.CarbonBundle" parentId="tools"
         />
 
         <notificationGroup
