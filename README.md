@@ -1,8 +1,9 @@
 # CarbonNowSh
 
 ![Build](https://github.com/r4g3baby/idea-carbon-now-sh/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/20153.svg)](https://plugins.jetbrains.com/plugin/20153)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/20153.svg)](https://plugins.jetbrains.com/plugin/20153)
+[![Discord](https://img.shields.io/discord/217018114083127296)](https://discord.gg/cJnzTDGphE)
 
 <!-- Plugin description -->
 A IntelliJ Platform plugin to open the current file or editor selection in [carbon.now.sh](https://carbon.now.sh/).
