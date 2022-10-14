@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>dev.ruipereira.idea.carbonnowsh</id>
     <name>CarbonNowSh</name>
-    <vendor>Rui Pereira</vendor>
+    <vendor email="me@ruipereira.dev" url="https://ruipereira.dev">Rui Pereira</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
