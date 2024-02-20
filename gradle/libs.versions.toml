@@ -2,7 +2,7 @@
 # plugins
 kotlin = "1.9.10"
 changelog = "2.2.0"
-gradleIntelliJPlugin = "1.16.0"
+gradleIntelliJPlugin = "1.17.2"
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
