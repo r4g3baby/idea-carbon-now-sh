@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+### Fixed
+- Usage of deprecated horizontalAlign.
+- Missing ActionUpdateThread for actions.
+
 ## [1.0.0] - 2022-10-12
 
 ### Added
