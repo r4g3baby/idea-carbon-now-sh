@@ -1,5 +1,6 @@
 package dev.ruipereira.idea.carbonnowsh.actions
 
+import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.PlatformDataKeys
@@ -22,5 +23,9 @@ class OpenFileAction : AnAction() {
         val virtualFile = e.getData(PlatformDataKeys.VIRTUAL_FILE)
 
         e.presentation.isEnabledAndVisible = virtualFile != null
+    }
+
+    override fun getActionUpdateThread(): ActionUpdateThread {
+        return ActionUpdateThread.BGT
     }
 }

@@ -1,5 +1,6 @@
 package dev.ruipereira.idea.carbonnowsh.actions
 
+import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.PlatformDataKeys
@@ -26,5 +27,9 @@ class OpenHighlightedAction : AnAction() {
             isVisible = editor != null
             isEnabled = !editor?.selectionModel?.selectedText.isNullOrBlank()
         }
+    }
+
+    override fun getActionUpdateThread(): ActionUpdateThread {
+        return ActionUpdateThread.BGT
     }
 }
