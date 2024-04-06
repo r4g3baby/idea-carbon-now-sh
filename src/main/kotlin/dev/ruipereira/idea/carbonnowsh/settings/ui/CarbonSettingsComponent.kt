@@ -2,8 +2,8 @@ package dev.ruipereira.idea.carbonnowsh.settings.ui
 
 import com.intellij.ui.components.JBCheckBox
 import com.intellij.ui.components.JBTextField
+import com.intellij.ui.dsl.builder.AlignX
 import com.intellij.ui.dsl.builder.panel
-import com.intellij.ui.dsl.gridLayout.HorizontalAlign
 import dev.ruipereira.idea.carbonnowsh.CarbonBundle.message
 import dev.ruipereira.idea.carbonnowsh.CarbonNowSh
 import javax.swing.JPanel
@@ -14,7 +14,6 @@ class CarbonSettingsComponent {
 
     private lateinit var carbonBaseUrlTextField: JBTextField
 
-    @Suppress("UnstableApiUsage")
     val panel: JPanel = panel {
         group(message("settings.general")) {
             row {
@@ -27,11 +26,11 @@ class CarbonSettingsComponent {
 
         group(message("settings.carbonUrl")) {
             row {
-                carbonBaseUrlTextField = textField().resizableColumn().horizontalAlign(HorizontalAlign.FILL).component
+                carbonBaseUrlTextField = textField().resizableColumn().align(AlignX.FILL).component
 
                 button(message("settings.carbonUrl.default")) {
                     carbonBaseUrlTextField.text = CarbonNowSh.BASE_URL
-                }.horizontalAlign(HorizontalAlign.RIGHT).component
+                }.align(AlignX.RIGHT).component
             }
         }
     }
